@@ -57,7 +57,7 @@ function DnaHologram({ alien, running }) {
   useFrame((state)=>{if(running&&core.current)core.current.position.y=Math.sin(state.clock.elapsedTime)*.12})
   return <group ref={core}>
     <mesh><icosahedronGeometry args={[.85,1]}/><meshStandardMaterial color={alien.color} wireframe emissive={alien.color} emissiveIntensity={1.2}/></mesh>
-    {Object.values(alien.stats).map((value,i)=><group key={i} rotation={[i*.5,i*.8,i*.3]}>
+    {Object.values(alien.stats||{a:70,b:60,c:80,d:65,e:90}).map((value,i)=><group key={i} rotation={[i*.5,i*.8,i*.3]}>
       <mesh><torusGeometry args={[1.1+i*.12,.015,6,64]}/><meshStandardMaterial color={alien.color} emissive={alien.color} emissiveIntensity={1}/></mesh>
       <mesh position={[1.1+i*.12,0,0]}><sphereGeometry args={[value/650,12,12]}/><meshStandardMaterial color={alien.color} emissive={alien.color} emissiveIntensity={2}/></mesh>
     </group>)}

@@ -1,45 +1,94 @@
-import { Float, OrbitControls, Sparkles } from '@react-three/drei'
+import { OrbitControls, Sparkles, ContactShadows } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { useRef } from 'react'
+import { Component, useEffect, useMemo, useRef, useState } from 'react'
+import { Pause, Play, RotateCcw, Orbit } from 'lucide-react'
 import * as THREE from 'three'
 
-function OmnitrixCore({ color='#00ff66', compact=false }) {
-  const group = useRef()
-  const core = useRef()
-  useFrame((state, delta) => {
-    group.current.rotation.y += delta * .22
-    core.current.rotation.z -= delta * .6
-    core.current.scale.setScalar(1 + Math.sin(state.clock.elapsedTime * 2) * .035)
-  })
-  return <group ref={group} rotation={[.34,0,-.08]} scale={compact ? .72 : 1}>
-    <mesh castShadow><cylinderGeometry args={[1.45,1.45,.52,48]} /><meshStandardMaterial color="#0b100d" metalness={.9} roughness={.25}/></mesh>
-    <mesh position={[0,.3,0]} castShadow><cylinderGeometry args={[1.03,1.03,.22,48]} /><meshStandardMaterial color="#18221b" metalness={.7} roughness={.3}/></mesh>
-    <group ref={core} position={[0,.44,0]}>
-      {[0,Math.PI].map(angle=><mesh key={angle} rotation={[0,angle,0]} position={[0,0,0]} castShadow><shapeGeometry args={[new THREE.Shape().moveTo(-.72,-.62).lineTo(-.05,0).lineTo(-.72,.62).lineTo(-.28,0).lineTo(-.72,-.62)]}/><meshStandardMaterial color={color} emissive={color} emissiveIntensity={2.4} side={THREE.DoubleSide}/></mesh>)}
-      <pointLight color={color} intensity={compact ? 7 : 12} distance={5}/>
-    </group>
-    <mesh rotation={[Math.PI/2,0,0]} position={[0,-.08,0]}><torusGeometry args={[1.2,.09,12,60]}/><meshStandardMaterial color={color} emissive={color} emissiveIntensity={1}/></mesh>
-    {[0,Math.PI/2,Math.PI,Math.PI*1.5].map(a=><mesh key={a} position={[Math.sin(a)*1.24,.05,Math.cos(a)*1.24]}><boxGeometry args={[.3,.42,.3]}/><meshStandardMaterial color="#606b63" metalness={.9}/></mesh>)}
+class ViewerBoundary extends Component {
+  state = { failed: false }
+  static getDerivedStateFromError() { return { failed: true } }
+  render() {
+    return this.state.failed
+      ? <div className="viewer-fallback"><Orbit size={42}/><p>3D preview unavailable</p><small>Enable hardware acceleration to explore this model.</small></div>
+      : this.props.children
+  }
+}
+
+function Watch({ color, version }) {
+  const symbol = useMemo(() => new THREE.Shape()
+    .moveTo(-.62,-.55).lineTo(.62,-.55).lineTo(.2,0)
+    .lineTo(.62,.55).lineTo(-.62,.55).lineTo(-.2,0).closePath(), [])
+  const square = version === 'complete'
+  const gauntlet = version === 'ultimatrix'
+  return <group rotation={[.35,0,0]}>
+    <mesh castShadow position={[0,-.18,0]}>
+      <boxGeometry args={[gauntlet?1.65:1.05,.38,gauntlet?4:3.4]}/>
+      <meshStandardMaterial color="#18221e" roughness={.5} metalness={.4}/>
+    </mesh>
+    <mesh castShadow>
+      {square ? <boxGeometry args={[2.2,.55,2.2]}/> : <cylinderGeometry args={[1.3,1.4,.55,64]}/>}
+      <meshStandardMaterial color="#84958c" metalness={.75} roughness={.32}/>
+    </mesh>
+    <mesh position={[0,.31,0]}>
+      <cylinderGeometry args={[1.12,1.12,.15,64]}/>
+      <meshStandardMaterial color="#101b15" metalness={.35} roughness={.4}/>
+    </mesh>
+    <mesh position={[0,.41,0]} rotation={[-Math.PI/2,0,0]}>
+      <shapeGeometry args={[symbol]}/>
+      <meshStandardMaterial color={color} emissive={color} emissiveIntensity={1.8} side={THREE.DoubleSide}/>
+    </mesh>
+    <mesh position={[0,.42,0]} rotation={[Math.PI/2,0,0]}>
+      <torusGeometry args={[1.05,.055,12,64]}/>
+      <meshStandardMaterial color={color} emissive={color} emissiveIntensity={1.1}/>
+    </mesh>
+    {[-1,1].map(side=><group key={side}>
+      <mesh position={[side*1.3,0,0]} rotation={[0,0,Math.PI/2]}>
+        <cylinderGeometry args={[.18,.18,.32,24]}/><meshStandardMaterial color={color} emissive={color} emissiveIntensity={.6}/>
+      </mesh>
+      {[1.4,1.65].map(z=><mesh key={z} position={[0,.04,side*z]}>
+        <boxGeometry args={[.8,.055,.08]}/><meshStandardMaterial color={color} emissive={color} emissiveIntensity={.6}/>
+      </mesh>)}
+    </group>)}
   </group>
 }
 
-function AlienCore({ color, type='energy' }) {
-  const ref=useRef()
-  useFrame((s,d)=>{ref.current.rotation.x+=d*.12;ref.current.rotation.y+=d*.28})
-  const geometry = type==='strength' ? <dodecahedronGeometry args={[1.1,1]}/> : type==='speed' ? <octahedronGeometry args={[1.15,2]}/> : <icosahedronGeometry args={[1.1,2]}/>
-  return <Float speed={2} rotationIntensity={.4} floatIntensity={.35}><group ref={ref}>
-    <mesh>{geometry}<meshStandardMaterial color="#07110a" emissive={color} emissiveIntensity={.7} wireframe/></mesh>
-    <mesh scale={.72}>{geometry}<meshPhysicalMaterial color={color} emissive={color} emissiveIntensity={1.2} transparent opacity={.22} transmission={.3}/></mesh>
-    <pointLight color={color} intensity={7} distance={4}/>
-  </group></Float>
+function DnaHologram({ alien, running }) {
+  const core=useRef()
+  useFrame((state)=>{if(running&&core.current)core.current.position.y=Math.sin(state.clock.elapsedTime)*.12})
+  return <group ref={core}>
+    <mesh><icosahedronGeometry args={[.85,1]}/><meshStandardMaterial color={alien.color} wireframe emissive={alien.color} emissiveIntensity={1.2}/></mesh>
+    {Object.values(alien.stats).map((value,i)=><group key={i} rotation={[i*.5,i*.8,i*.3]}>
+      <mesh><torusGeometry args={[1.1+i*.12,.015,6,64]}/><meshStandardMaterial color={alien.color} emissive={alien.color} emissiveIntensity={1}/></mesh>
+      <mesh position={[1.1+i*.12,0,0]}><sphereGeometry args={[value/650,12,12]}/><meshStandardMaterial color={alien.color} emissive={alien.color} emissiveIntensity={2}/></mesh>
+    </group>)}
+  </group>
 }
 
-export function HologramCanvas({ color='#00ff66', alien, compact=false, controls=true }) {
-  return <Canvas shadows dpr={[1,1.75]} camera={{position:[0,compact?2.8:3.4,compact?4.6:5.5],fov:42}} gl={{alpha:true,antialias:true}}>
-    <ambientLight intensity={.65}/><directionalLight position={[4,6,3]} intensity={3} color={color} castShadow/><spotLight position={[-4,3,2]} color="#ffffff" intensity={2}/>
-    <Float speed={1.4} rotationIntensity={.18} floatIntensity={.25}>{alien ? <AlienCore color={color} type={alien.powerType.toLowerCase()}/> : <OmnitrixCore color={color} compact={compact}/>}</Float>
-    <Sparkles count={compact?25:55} scale={5} size={2} speed={.35} color={color}/>
-    <mesh rotation={[-Math.PI/2,0,0]} position={[0,-1.62,0]} receiveShadow><circleGeometry args={[2.4,64]}/><meshBasicMaterial color={color} transparent opacity={.06}/></mesh>
-    {controls&&<OrbitControls enablePan={false} minDistance={3.3} maxDistance={7} autoRotate autoRotateSpeed={.55}/>} 
-  </Canvas>
+export function HologramCanvas({ color='#00ff66', alien, version='original', controls=true }) {
+  const host=useRef(), orbit=useRef()
+  const [visible,setVisible]=useState(false)
+  const [paused,setPaused]=useState(()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches)
+  useEffect(()=>{
+    const observer=new IntersectionObserver(([entry])=>setVisible(entry.isIntersecting),{rootMargin:'160px'})
+    if(host.current)observer.observe(host.current)
+    return()=>observer.disconnect()
+  },[])
+  return <div ref={host} className="hologram-stage">
+    <ViewerBoundary key={alien?.id || version}>
+      {visible&&<Canvas shadows dpr={[1,1.5]} frameloop={paused?'demand':'always'} camera={{position:[0,4.2,5.8],fov:42}} gl={{alpha:true,antialias:true}}>
+        <ambientLight intensity={1.7}/>
+        <directionalLight position={[4,7,5]} intensity={3} castShadow/>
+        <directionalLight position={[-4,3,-3]} intensity={2} color={color}/>
+        {alien?<DnaHologram alien={alien} running={!paused}/>:<Watch color={color} version={version}/>}
+        {!paused&&<Sparkles count={35} scale={5} size={2} speed={.3} color={color}/>}
+        <ContactShadows position={[0,-1.35,0]} opacity={.5} scale={8} blur={2.5} far={5} frames={1}/>
+        <OrbitControls ref={orbit} enablePan={false} enableZoom={controls} enableRotate={controls} minDistance={3.3} maxDistance={8} autoRotate={!paused} autoRotateSpeed={.6} enableDamping/>
+      </Canvas>}
+    </ViewerBoundary>
+    <div className="viewer-toolbar">
+      <button onClick={()=>setPaused(!paused)} aria-label={paused?'Play 3D animation':'Pause 3D animation'}>{paused?<Play size={16}/>:<Pause size={16}/>}</button>
+      <button onClick={()=>orbit.current?.reset()} aria-label="Reset 3D camera"><RotateCcw size={16}/></button>
+      <span>{alien?'DNA hologram':'Interactive 3D'} · Drag / zoom</span>
+    </div>
+  </div>
 }

@@ -11,7 +11,7 @@ export default function OmnitrixShowcase({ versions, active, onChange }) {
         <dl><div><dt>CREATOR</dt><dd>{active.creator}</dd></div><div><dt>FIRST APPEARANCE</dt><dd>{active.firstAppearance}</dd></div><div><dt>CORE CAPABILITIES</dt><dd>{active.capabilities}</dd></div></dl>
         <div className="watch-controls"><button onClick={()=>move(-1)} aria-label="Previous Omnitrix"><ChevronLeft/></button><span>{index+1} / {versions.length}</span><button onClick={()=>move(1)} aria-label="Next Omnitrix"><ChevronRight/></button></div>
       </div>
-      <div className="watch-view"><div className="watch-orbit"/><HologramCanvas color={active.color}/><span className="watch-chip"><Cpu/> CORE MK.{index+1}</span><span className="watch-auth"><Fingerprint/> DNA AUTHENTICATED</span></div>
+      <div className="watch-view"><div className="watch-orbit"/><HologramCanvas color={active.color} version={active.id}/><span className="watch-chip"><Cpu/> CORE MK.{index+1}</span><span className="watch-auth"><Fingerprint/> DNA AUTHENTICATED</span></div>
       <div className="watch-tabs">{versions.map((watch,i)=><button key={watch.id} className={watch.id===active.id?'active':''} onClick={()=>onChange(watch)}><span>0{i+1}</span><b>{watch.name.replace(' Omnitrix','')}</b><small>{watch.year}</small></button>)}</div>
     </div>
   </section>

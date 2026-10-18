@@ -7,7 +7,7 @@ const icons={flame:Flame,fist:ChevronUp,zap:Zap,gem:Gem,circle:CircleDot,radar:R
 export default function AlienCard({ alien, onSelect }) {
   const Icon=icons[alien.icon]||CircleDot
   return <button className="alien-card" style={{'--alien':alien.color}} onClick={()=>onSelect(alien)}>
-    <div className="card-top"><span>{alien.code}</span><span>{alien.powerType}</span></div>
+    <div className="card-top"><span>{alien.code}</span><span>{alien.form||alien.powerType}</span></div>
     <div className="alien-portrait"><div className="portrait-rings"/><CharacterArt item={alien}/><span className="portrait-scan"/><span className="era-tag">{alien.era}</span></div>
     <div className="alien-title"><div><h3>{alien.name}</h3><p>{alien.species}</p></div><span>↗</span></div>
     <div className="origin"><span>HOMEWORLD</span><b>{alien.homeworld}</b></div>

@@ -7,6 +7,9 @@ export const series = [
 ]
 
 export const characters = [
+  ['julie-yamamoto','Julie Yamamoto','Ally','Human','Earth','Alien Force','#7cead9','Tennis','Ship partnership','A talented tennis player whose bond with the alien Ship draws her into Ben’s adventures.'],
+  ['kai-green','Kai Green','Ally','Human','Earth','Original','#e9b67d','Exploration','Swordsmanship','An adventurous ally whose encounters with Ben connect their childhood and future.'],
+  ['albedo','Albedo','Villain','Galvan','Galvan Prime','Alien Force','#ff7272','Genetic transformations','Galvan intellect','Azmuth’s former assistant becomes a dangerous rival, pursuing control over transformation technology.'],
   ['ben-tennyson','Ben Tennyson','Hero','Human','Earth','Original','#00ff66','Omnitrix transformations','Quick thinking','The adventurous wielder of the Omnitrix grows from a curious kid into a defender of the universe.'],
   ['gwen-tennyson','Gwen Tennyson','Hero','Human / Anodite heritage','Earth','Original','#f78cff','Mana manipulation','Magic','Ben’s cousin combines intelligence, discipline, and formidable magical abilities.'],
   ['max-tennyson','Max Tennyson','Ally','Human','Earth','Original','#ffbc79','Plumber training','Alien technology','Grandpa Max is a veteran Plumber whose experience guides Ben and Gwen through their first adventures.'],
@@ -73,3 +76,5 @@ export const extraAliens=rows.map(([name,species,homeworld,era,powerType,...abil
   color:palette[powerType],code:`DNA-${String(i+11).padStart(2,'0')}`,icon:'zap',
   stats:null,weaknesses:[],lore:`${name} is a ${species==='Unknown'?'transformation with an unconfirmed species':species} transformation introduced in ${era}. Its signature abilities include ${abilities.join(' and ').toLowerCase()}.`
 }))
+
+export { default as archiveAliens } from './archiveExpansion.json' with { type: 'json' }

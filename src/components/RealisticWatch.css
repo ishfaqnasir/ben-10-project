@@ -1,0 +1,22 @@
+.realistic-watch{position:relative;display:grid;place-items:center;width:100%;height:100%;min-height:280px;isolation:isolate;perspective:1000px;--tilt-x:0deg;--tilt-y:0deg}
+.real-watch-touch{display:block;position:relative;background:none;border:0;padding:0;width:min(100%,620px);cursor:pointer;transform:rotateX(var(--tilt-y)) rotateY(var(--tilt-x));transition:transform .2s ease;z-index:2;border-radius:50%}
+.real-watch-touch:focus-visible{outline:2px solid #99f43a;outline-offset:-30px}
+.real-watch-touch:disabled{cursor:wait}
+.real-watch-image{display:block;width:100%;max-height:560px;object-fit:contain;filter:drop-shadow(0 20px 24px #0009);animation:real-watch-float 8s ease-in-out infinite;pointer-events:none}
+.real-watch-halo{position:absolute;inset:16% 9%;border-radius:50%;background:radial-gradient(ellipse,#7cc82422,transparent 65%);z-index:-1}
+.real-watch-shadow{position:absolute;bottom:9%;width:45%;height:5%;background:#000b;border-radius:50%;filter:blur(15px);z-index:-1}
+.realistic-watch.charging .real-watch-image{animation:real-watch-charge .3s ease-in-out infinite alternate}
+.realistic-watch.charging .real-watch-halo{background:radial-gradient(ellipse,#a0f44466,transparent 65%)}
+.realistic-watch.projected .real-watch-touch{width:76%;align-self:end}
+.real-watch-projection{position:absolute;top:0;height:55%;width:55%;z-index:3;pointer-events:none;display:flex;flex-direction:column;align-items:center;animation:projection-rise .6s ease-out}
+.real-watch-projection img{height:85%;max-width:100%;object-fit:contain;filter:grayscale(1) sepia(1) saturate(3) hue-rotate(45deg) drop-shadow(0 0 10px #7bff65);opacity:.8;mask-image:repeating-linear-gradient(to bottom,#000 0 3px,#0008 3px 4px)}
+.real-watch-projection span{font:9px 'DM Mono',monospace;letter-spacing:.15em;color:#b7ff9a}
+.projection-beam{position:absolute;inset:0 -10% -35%;background:linear-gradient(0deg,#8dff5f33,transparent);clip-path:polygon(0 0,100% 0,50% 100%);z-index:-1}
+.realistic-watch.paused .real-watch-image{animation:none}
+.sync-device .realistic-watch{min-height:290px}
+.sync-device .real-watch-touch{width:min(100%,450px)}
+.sync-device .real-watch-image{max-height:420px}
+@keyframes real-watch-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes real-watch-charge{from{filter:drop-shadow(0 0 12px #7bff6544)}to{filter:drop-shadow(0 0 32px #7bff65aa)}}
+@keyframes projection-rise{from{opacity:0;transform:translateY(35px) scaleY(.7)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.real-watch-touch,.real-watch-image,.real-watch-projection{animation:none!important;transition:none!important;transform:none!important}}

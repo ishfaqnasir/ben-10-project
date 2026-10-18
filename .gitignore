@@ -3,3 +3,4 @@ node_modules_broken/
 dist/
 *.log
 .DS_Store
+work/

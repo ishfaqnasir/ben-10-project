@@ -1,0 +1,308 @@
+[
+  {
+    "id": "blitzwolfer",
+    "name": "Blitzwolfer",
+    "species": "Loboan",
+    "homeworld": "Luna Lobo",
+    "era": "Original",
+    "powerType": "Sound",
+    "abilities": [
+      "Sonic howl"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-059",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Blitzwolfer is indexed in the Original archive. Its signature capability is sonic howl.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "snare-oh",
+    "name": "Snare-oh",
+    "species": "Thep Khufan",
+    "homeworld": "Anur Khufos",
+    "era": "Original",
+    "powerType": "Strength",
+    "abilities": [
+      "Bandage manipulation"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-060",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Snare-oh is indexed in the Original archive. Its signature capability is bandage manipulation.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "frankenstrike",
+    "name": "Frankenstrike",
+    "species": "Transylian",
+    "homeworld": "Anur Transyl",
+    "era": "Original",
+    "powerType": "Electric",
+    "abilities": [
+      "Electromagnetism"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-061",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Frankenstrike is indexed in the Original archive. Its signature capability is electromagnetism.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "spitter",
+    "name": "Spitter",
+    "species": "Spheroid",
+    "homeworld": "Scalpasc",
+    "era": "Original",
+    "powerType": "Energy",
+    "abilities": [
+      "Pressurized spit"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-062",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Spitter is indexed in the Original archive. Its signature capability is pressurized spit.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "buzzshock",
+    "name": "Buzzshock",
+    "species": "Nosedeenian",
+    "homeworld": "Nosedeen Quasar",
+    "era": "Original",
+    "powerType": "Electric",
+    "abilities": [
+      "Electrical absorption"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-063",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Buzzshock is indexed in the Original archive. Its signature capability is electrical absorption.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "arctiguana",
+    "name": "Arctiguana",
+    "species": "Polar Manzardill",
+    "homeworld": "X'Nelli",
+    "era": "Original",
+    "powerType": "Ice",
+    "abilities": [
+      "Freezing breath"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-064",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Arctiguana is indexed in the Original archive. Its signature capability is freezing breath.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "nanomech",
+    "name": "Nanomech",
+    "species": "Human / Nanochip hybrid",
+    "homeworld": "Earth",
+    "era": "Alien Force",
+    "powerType": "Technology",
+    "abilities": [
+      "Miniaturization"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-065",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Nanomech is indexed in the Alien Force archive. Its signature capability is miniaturization.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "mole-stache",
+    "name": "Mole-Stache",
+    "species": "Unknown",
+    "homeworld": "Unknown",
+    "era": "Omniverse",
+    "powerType": "Strength",
+    "abilities": [
+      "Prehensile moustache"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-066",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Mole-Stache is indexed in the Omniverse archive. Its signature capability is prehensile moustache.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "gutrot",
+    "name": "Gutrot",
+    "species": "Unknown",
+    "homeworld": "Unknown",
+    "era": "Omniverse",
+    "powerType": "Energy",
+    "abilities": [
+      "Chemical gas synthesis"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-067",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Gutrot is indexed in the Omniverse archive. Its signature capability is chemical gas synthesis.",
+    "form": "Base transformation"
+  },
+  {
+    "id": "ultimate-echo-echo",
+    "name": "Ultimate Echo Echo",
+    "species": "Evolved Echo Echo form",
+    "homeworld": "See base species",
+    "era": "Ultimate Alien",
+    "powerType": "Evolution",
+    "abilities": [
+      "Evolved combat abilities"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-068",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Ultimate Echo Echo is indexed in the Ultimate Alien archive. Its signature capability is evolved combat abilities.",
+    "form": "Ultimate form"
+  },
+  {
+    "id": "ultimate-humungousaur",
+    "name": "Ultimate Humungousaur",
+    "species": "Evolved Humungousaur form",
+    "homeworld": "See base species",
+    "era": "Ultimate Alien",
+    "powerType": "Evolution",
+    "abilities": [
+      "Evolved combat abilities"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-069",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Ultimate Humungousaur is indexed in the Ultimate Alien archive. Its signature capability is evolved combat abilities.",
+    "form": "Ultimate form"
+  },
+  {
+    "id": "ultimate-swampfire",
+    "name": "Ultimate Swampfire",
+    "species": "Evolved Swampfire form",
+    "homeworld": "See base species",
+    "era": "Ultimate Alien",
+    "powerType": "Evolution",
+    "abilities": [
+      "Evolved combat abilities"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-070",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Ultimate Swampfire is indexed in the Ultimate Alien archive. Its signature capability is evolved combat abilities.",
+    "form": "Ultimate form"
+  },
+  {
+    "id": "ultimate-big-chill",
+    "name": "Ultimate Big Chill",
+    "species": "Evolved Big Chill form",
+    "homeworld": "See base species",
+    "era": "Ultimate Alien",
+    "powerType": "Evolution",
+    "abilities": [
+      "Evolved combat abilities"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-071",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Ultimate Big Chill is indexed in the Ultimate Alien archive. Its signature capability is evolved combat abilities.",
+    "form": "Ultimate form"
+  },
+  {
+    "id": "ultimate-spidermonkey",
+    "name": "Ultimate Spidermonkey",
+    "species": "Evolved Spidermonkey form",
+    "homeworld": "See base species",
+    "era": "Ultimate Alien",
+    "powerType": "Evolution",
+    "abilities": [
+      "Evolved combat abilities"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-072",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Ultimate Spidermonkey is indexed in the Ultimate Alien archive. Its signature capability is evolved combat abilities.",
+    "form": "Ultimate form"
+  },
+  {
+    "id": "ultimate-cannonbolt",
+    "name": "Ultimate Cannonbolt",
+    "species": "Evolved Cannonbolt form",
+    "homeworld": "See base species",
+    "era": "Ultimate Alien",
+    "powerType": "Evolution",
+    "abilities": [
+      "Evolved combat abilities"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-073",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Ultimate Cannonbolt is indexed in the Ultimate Alien archive. Its signature capability is evolved combat abilities.",
+    "form": "Ultimate form"
+  },
+  {
+    "id": "ultimate-way-big",
+    "name": "Ultimate Way Big",
+    "species": "Evolved Way Big form",
+    "homeworld": "See base species",
+    "era": "Ultimate Alien",
+    "powerType": "Evolution",
+    "abilities": [
+      "Evolved combat abilities"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-074",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Ultimate Way Big is indexed in the Ultimate Alien archive. Its signature capability is evolved combat abilities.",
+    "form": "Ultimate form"
+  },
+  {
+    "id": "ultimate-wildmutt",
+    "name": "Ultimate Wildmutt",
+    "species": "Evolved Wildmutt form",
+    "homeworld": "See base species",
+    "era": "Ultimate Alien",
+    "powerType": "Evolution",
+    "abilities": [
+      "Evolved combat abilities"
+    ],
+    "color": "#7bff65",
+    "code": "DNA-075",
+    "icon": "zap",
+    "stats": null,
+    "weaknesses": [],
+    "lore": "Ultimate Wildmutt is indexed in the Ultimate Alien archive. Its signature capability is evolved combat abilities.",
+    "form": "Ultimate form"
+  }
+]

@@ -1,0 +1,510 @@
+{
+  "cannonbolt": {
+    "image": "/artwork/cannonbolt.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/cannonbolt/"
+  },
+  "four-arms": {
+    "image": "/artwork/four-arms.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/four-arms/"
+  },
+  "heatblast": {
+    "image": "/artwork/heatblast.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/heatblast/"
+  },
+  "diamondhead": {
+    "image": "/artwork/diamondhead.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/diamondhead/"
+  },
+  "grey-matter": {
+    "image": "/artwork/grey-matter.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/grey-matter/"
+  },
+  "xlr8": {
+    "image": "/artwork/xlr8.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/xlr8/"
+  },
+  "ghostfreak": {
+    "image": "/artwork/ghostfreak.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/ghostfreak/"
+  },
+  "ripjaws": {
+    "image": "/artwork/ripjaws.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/ripjaws/"
+  },
+  "stinkfly": {
+    "image": "/artwork/stinkfly.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/stinkfly/"
+  },
+  "wildmutt": {
+    "image": "/artwork/wildmutt.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/wildmutt/"
+  },
+  "ben-tennyson": {
+    "image": "/artwork/ben-tennyson.png",
+    "source": "https://ben10hero.com/ben-tennyson-and-his-team/origins-ben-tennyson/"
+  },
+  "gwen-tennyson": {
+    "image": "/artwork/gwen-tennyson.png",
+    "source": "https://ben10hero.com/ben-tennyson-and-his-team/origins-gwen-tennyson/"
+  },
+  "max-tennyson": {
+    "image": "/artwork/max-tennyson.png",
+    "source": "https://ben10hero.com/ben-tennyson-and-his-team/origins-max-tennyson/"
+  },
+  "rook-blonko": {
+    "image": "/artwork/rook-blonko.png",
+    "source": "https://ben10hero.com/ben-tennyson-and-his-team/the-origins-of-rook-blonko/"
+  },
+  "kevin-levin": {
+    "image": "/artwork/kevin-levin.png",
+    "source": "https://ben10hero.com/ben-tennyson-and-his-team/origins-kevin-ethan-levin/"
+  },
+  "kai-green": {
+    "image": "/artwork/kai-green.png",
+    "source": "https://ben10.fandom.com/wiki/Kai_Green"
+  },
+  "azmuth": {
+    "image": "/artwork/azmuth.webp",
+    "source": "https://ben10.fandom.com/wiki/Azmuth_%28Classic%29/Gallery"
+  },
+  "vilgax": {
+    "image": "/artwork/vilgax.webp",
+    "source": "https://vsbattles.com/threads/the-symbol-of-peace-vs-the-conqueror-of-10-worlds.8608/"
+  },
+  "ditto": {
+    "image": "/artwork/ditto.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/omnitrix-alien-heroes-2/ditto/"
+  },
+  "upgrade": {
+    "image": "/artwork/upgrade.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/upgrade/"
+  },
+  "wildvine": {
+    "image": "/artwork/wildvine.jpg",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/wildvine/"
+  },
+  "eye-guy": {
+    "image": "/artwork/eye-guy.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/omnitrix-alien-heroes-2/eye-guy/"
+  },
+  "way-big": {
+    "image": "/artwork/way-big.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/omnitrix-alien-heroes-2/way-big/"
+  },
+  "upchuck": {
+    "image": "/artwork/upchuck.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/upchuck/"
+  },
+  "charmcaster": {
+    "image": "/artwork/charmcaster.webp",
+    "source": "https://ben10.wikia.com/wiki/Charmcaster"
+  },
+  "swampfire": {
+    "image": "/artwork/swampfire.png",
+    "source": "https://ben10hero.com/additional-aliens/swampfire/"
+  },
+  "jetray": {
+    "image": "/artwork/jetray.png",
+    "source": "https://ben10hero.com/additional-aliens/jetray/"
+  },
+  "humungousaur": {
+    "image": "/artwork/humungousaur.png",
+    "source": "https://ben10hero.com/additional-aliens/humungousaur/"
+  },
+  "big-chill": {
+    "image": "/artwork/big-chill.png",
+    "source": "https://ben10hero.com/additional-aliens/big-chill/"
+  },
+  "echo-echo": {
+    "image": "/artwork/echo-echo.png",
+    "source": "https://ben10hero.com/additional-aliens/echo-echo/"
+  },
+  "albedo": {
+    "image": "/artwork/albedo.png",
+    "source": "https://ben10.fandom.com/wiki/Albedo"
+  },
+  "chromastone": {
+    "image": "/artwork/chromastone.png",
+    "source": "https://ben10hero.com/additional-aliens/chromastone/"
+  },
+  "alien-x": {
+    "image": "/artwork/alien-x.png",
+    "source": "https://ben10hero.com/additional-aliens/alien-x/"
+  },
+  "spidermonkey": {
+    "image": "/artwork/spidermonkey.png",
+    "source": "https://ben10hero.com/additional-aliens/spidermonkey/"
+  },
+  "brainstorm": {
+    "image": "/artwork/brainstorm.png",
+    "source": "https://ben10hero.com/additional-aliens/brainstorm/"
+  },
+  "goop": {
+    "image": "/artwork/goop.png",
+    "source": "https://ben10hero.com/additional-aliens/goop/"
+  },
+  "rath": {
+    "image": "/artwork/rath.png",
+    "source": "https://ben10hero.com/additional-aliens/rath/"
+  },
+  "water-hazard": {
+    "image": "/artwork/water-hazard.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/water-hazard/"
+  },
+  "armodrillo": {
+    "image": "/artwork/armodrillo.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/armodrillo/"
+  },
+  "lodestar": {
+    "image": "/artwork/lodestar.png",
+    "source": "https://ben10hero.com/additional-aliens/lodestar/"
+  },
+  "terraspin": {
+    "image": "/artwork/terraspin.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/terraspin/"
+  },
+  "nrg": {
+    "image": "/artwork/nrg.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/nrg/"
+  },
+  "clockwork": {
+    "image": "/artwork/clockwork.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/clockwork/"
+  },
+  "fasttrack": {
+    "image": "/artwork/fasttrack.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/fasttrack/"
+  },
+  "chamalien": {
+    "image": "/artwork/chamalien.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/chamalien/"
+  },
+  "ampfibian": {
+    "image": "/artwork/ampfibian.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/ampfibian/"
+  },
+  "eatle": {
+    "image": "/artwork/eatle.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/eatle/"
+  },
+  "jury-rigg": {
+    "image": "/artwork/jury-rigg.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/jury-rigg/"
+  },
+  "bloxx": {
+    "image": "/artwork/bloxx.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/bloxx/"
+  },
+  "shocksquatch": {
+    "image": "/artwork/shocksquatch.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/shocksquatch/"
+  },
+  "ball-weevil": {
+    "image": "/artwork/ball-weevil.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/ball-weevil/"
+  },
+  "feedback": {
+    "image": "/artwork/feedback.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/feedback/"
+  },
+  "crashhopper": {
+    "image": "/artwork/crashhopper.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/crashhopper/"
+  },
+  "bullfrag": {
+    "image": "/artwork/bullfrag.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/bullfrag/"
+  },
+  "kickin-hawk": {
+    "image": "/artwork/kickin-hawk.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/kickin-hawk/"
+  },
+  "astrodactyl": {
+    "image": "/artwork/astrodactyl.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/astrodactyl/"
+  },
+  "gravattack": {
+    "image": "/artwork/gravattack.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/gravattack/"
+  },
+  "pesky-dust": {
+    "image": "/artwork/pesky-dust.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/pesky-dust/"
+  },
+  "the-worst": {
+    "image": "/artwork/the-worst.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/the-worst/"
+  },
+  "walkatrout": {
+    "image": "/artwork/walkatrout.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/walkatrout/"
+  },
+  "atomix": {
+    "image": "/artwork/atomix.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/atomix/"
+  },
+  "whampire": {
+    "image": "/artwork/whampire.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/whampire/"
+  },
+  "toepick": {
+    "image": "/artwork/toepick.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/toepick/"
+  },
+  "overflow": {
+    "image": "/artwork/overflow.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/additional-aliens-part-2/overflow/"
+  },
+  "shock-rock": {
+    "image": "/artwork/shock-rock.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/additional-aliens-part-2/shock-rock/"
+  },
+  "gax": {
+    "image": "/artwork/gax.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/gax/"
+  },
+  "blitzwolfer": {
+    "image": "/artwork/blitzwolfer.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/blitzwolfer-or-benwolf/attachment/blitzwolfer_vision/"
+  },
+  "snare-oh": {
+    "image": "/artwork/snare-oh.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/snare-oh/attachment/sods_326/"
+  },
+  "spitter": {
+    "image": "/artwork/spitter.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/omnitrix-alien-heroes-2/spitter/attachment/spitter3/"
+  },
+  "frankenstrike": {
+    "image": "/artwork/frankenstrike.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/frankenstrike/attachment/sztwc_513/"
+  },
+  "arctiguana": {
+    "image": "/artwork/arctiguana.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/articguana/attachment/fafbm_65/"
+  },
+  "buzzshock": {
+    "image": "/artwork/buzzshock.png",
+    "source": "https://ben10hero.com/omnitrix-alien-heroes-1/omnitrix-alien-heroes-2/buzzshock/attachment/tcom_61/"
+  },
+  "nanomech": {
+    "image": "/artwork/nanomech.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-from-alien-force/nanomech/attachment/tfow1_304/"
+  },
+  "ultimate-humungousaur": {
+    "image": "/artwork/ultimate-humungousaur.png",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Humungousaur"
+  },
+  "mole-stache": {
+    "image": "/artwork/mole-stache.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/mole-stache/attachment/and_265/"
+  },
+  "gutrot": {
+    "image": "/artwork/gutrot.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/gutrot/attachment/vov2_308/"
+  },
+  "undertow": {
+    "image": "/artwork/undertow.png",
+    "source": "https://ben10hero.com/additional-aliens/new-aliens-omniverse/additional-aliens-part-2/overflow/attachment/undertow/"
+  },
+  "surge": {
+    "image": "/artwork/surge.webp",
+    "source": "https://ben10.fandom.com/wiki/Surge"
+  },
+  "slapback": {
+    "image": "/artwork/slapback.webp",
+    "source": "https://ben10.fandom.com/wiki/Slapback"
+  },
+  "julie-yamamoto": {
+    "image": "/artwork/julie-yamamoto.webp",
+    "source": "https://ben10.fandom.com/wiki/Julie_Yamamoto"
+  },
+  "ultimate-echo-echo": {
+    "image": "/artwork/ultimate-echo-echo.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Echo_Echo"
+  },
+  "ultimate-big-chill": {
+    "image": "/artwork/ultimate-big-chill.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Big_Chill"
+  },
+  "ultimate-cannonbolt": {
+    "image": "/artwork/ultimate-cannonbolt.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Cannonbolt"
+  },
+  "ultimate-spidermonkey": {
+    "image": "/artwork/ultimate-spidermonkey.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Spidermonkey"
+  },
+  "ultimate-swampfire": {
+    "image": "/artwork/ultimate-swampfire.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Swampfire"
+  },
+  "ultimate-way-big": {
+    "image": "/artwork/ultimate-way-big.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Way_Big"
+  },
+  "bashmouth": {
+    "image": "/artwork/bashmouth.webp",
+    "source": "https://ben10.fandom.com/wiki/Bashmouth"
+  },
+  "bootleg": {
+    "image": "/artwork/bootleg.webp",
+    "source": "https://ben10.fandom.com/wiki/Bootleg"
+  },
+  "dark-matter": {
+    "image": "/artwork/dark-matter.webp",
+    "source": "https://ben10.fandom.com/wiki/Dark_Matter"
+  },
+  "quad-smack": {
+    "image": "/artwork/quad-smack.webp",
+    "source": "https://ben10.fandom.com/wiki/Quad_Smack"
+  },
+  "humungoraptor": {
+    "image": "/artwork/humungoraptor.webp",
+    "source": "https://ben10.fandom.com/wiki/Humungoraptor"
+  },
+  "rush": {
+    "image": "/artwork/rush.webp",
+    "source": "https://ben10.fandom.com/wiki/Rush"
+  },
+  "skunkmoth": {
+    "image": "/artwork/skunkmoth.webp",
+    "source": "https://ben10.fandom.com/wiki/Skunkmoth"
+  },
+  "hot-shot": {
+    "image": "/artwork/hot-shot.webp",
+    "source": "https://ben10.fandom.com/wiki/Hot_Shot"
+  },
+  "thornblade": {
+    "image": "/artwork/thornblade.webp",
+    "source": "https://ben10.fandom.com/wiki/Thornblade"
+  },
+  "ultimate-wildmutt": {
+    "image": "/artwork/ultimate-wildmutt.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Wildmutt"
+  },
+  "wreckingbolt": {
+    "image": "/artwork/wreckingbolt.webp",
+    "source": "https://ben10.fandom.com/wiki/Wreckingbolt"
+  },
+  "crystalfist": {
+    "image": "/artwork/crystalfist.webp",
+    "source": "https://ben10.fandom.com/wiki/Crystalfist"
+  },
+  "big-chuck": {
+    "image": "/artwork/big-chuck.webp",
+    "source": "https://ben10.fandom.com/wiki/Big_Chuck"
+  },
+  "crashocker": {
+    "image": "/artwork/crashocker.webp",
+    "source": "https://ben10.fandom.com/wiki/Crashocker"
+  },
+  "diamond-matter": {
+    "image": "/artwork/diamond-matter.webp",
+    "source": "https://ben10.fandom.com/wiki/Diamond_Matter"
+  },
+  "heat-jaws": {
+    "image": "/artwork/heat-jaws.webp",
+    "source": "https://ben10.fandom.com/wiki/Heat_Jaws"
+  },
+  "humungoopsaur": {
+    "image": "/artwork/humungoopsaur.webp",
+    "source": "https://ben10.fandom.com/wiki/Humungoopsaur"
+  },
+  "uprigg": {
+    "image": "/artwork/uprigg.webp",
+    "source": "https://ben10.fandom.com/wiki/Uprigg"
+  },
+  "stink-arms": {
+    "image": "/artwork/stink-arms.webp",
+    "source": "https://ben10.fandom.com/wiki/Stink_Arms"
+  },
+  "ultimate-arctiguana": {
+    "image": "/artwork/ultimate-arctiguana.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Arctiguana"
+  },
+  "ultimate-gravattack": {
+    "image": "/artwork/ultimate-gravattack.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Gravattack"
+  },
+  "ultimate-rath": {
+    "image": "/artwork/ultimate-rath.webp",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Rath"
+  },
+  "atomic-x": {
+    "image": "/artwork/atomic-x.webp",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X"
+  },
+  "fourmungousaur": {
+    "image": "/artwork/fourmungousaur.webp",
+    "source": "https://ben10.fandom.com/wiki/Fourmungousaur"
+  },
+  "ultimate-grey-matter": {
+    "image": "/artwork/ultimate-grey-matter.png",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Albedo"
+  },
+  "eon": {
+    "image": "/artwork/eon.png",
+    "source": "https://ben10.fandom.com/wiki/Eon"
+  },
+  "ultimate-ben": {
+    "image": "/artwork/ultimate-ben.png",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Ben"
+  },
+  "omni-kix-cannonbolt": {
+    "image": "/artwork/omni-kix-cannonbolt.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Cannonbolt"
+  },
+  "omni-kix-diamondhead": {
+    "image": "/artwork/omni-kix-diamondhead.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Diamondhead"
+  },
+  "omni-kix-four-arms": {
+    "image": "/artwork/omni-kix-four-arms.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Four_Arms"
+  },
+  "omni-kix-heatblast": {
+    "image": "/artwork/omni-kix-heatblast.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Heatblast"
+  },
+  "omni-kix-humungousaur": {
+    "image": "/artwork/omni-kix-humungousaur.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Humungousaur"
+  },
+  "omni-kix-jetray": {
+    "image": "/artwork/omni-kix-jetray.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Jetray"
+  },
+  "omni-kix-rath": {
+    "image": "/artwork/omni-kix-rath.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Rath"
+  },
+  "omni-kix-shock-rock": {
+    "image": "/artwork/omni-kix-shock-rock.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Shock_Rock"
+  },
+  "omni-kix-slapback": {
+    "image": "/artwork/omni-kix-slapback.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Slapback"
+  },
+  "omni-kix-xlr8": {
+    "image": "/artwork/omni-kix-xlr8.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_XLR8"
+  },
+  "omni-naut-heatblast": {
+    "image": "/artwork/omni-naut-heatblast.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Naut_Heatblast"
+  },
+  "omni-naut-jetray": {
+    "image": "/artwork/omni-naut-jetray.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Naut_Jetray"
+  },
+  "omni-naut-humungousaur": {
+    "image": "/artwork/omni-naut-humungousaur.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Naut_Humungousaur"
+  },
+  "omni-naut-shock-rock": {
+    "image": "/artwork/omni-naut-shock-rock.webp",
+    "source": "https://ben10.fandom.com/wiki/Omni-Naut_Shock_Rock"
+  }
+}

@@ -1,0 +1,24 @@
+.sync-gate{position:fixed;inset:0;background:radial-gradient(ellipse at 50% 57%,#143d2055,#030503 70%);overflow:auto;display:flex;flex-direction:column;align-items:center;padding:clamp(24px,5vh,48px) 20px 24px;gap:22px}
+.sync-heading{text-align:center;z-index:3;pointer-events:none;flex-shrink:0}
+.sync-heading>span{font:10px 'DM Mono',monospace;letter-spacing:.18em;color:#81b88b}
+.sync-heading h1{font:900 clamp(40px,5vw,74px)/.94 'Barlow Condensed',sans-serif;margin:20px 0;letter-spacing:-.02em}
+.sync-heading em{font-style:normal;color:#7bff65}
+.sync-heading p{font-size:13px;color:#9fbaa6}
+.sync-device{position:relative;display:grid;place-items:center;width:min(100%,540px);min-height:280px;flex:1;isolation:isolate}
+.sync-orbit{position:absolute;width:min(75%,360px);aspect-ratio:1;border:1px solid #7bff6524;border-radius:50%;box-shadow:0 0 90px #7bff6512,inset 0 0 60px #7bff650a;z-index:-1}
+.sync-orbit:after{content:'';position:absolute;inset:-22px;border:1px dashed #7bff651c;border-radius:50%}
+.classic-watch-trigger{border:0;background:transparent;padding:12px;cursor:pointer;width:min(100%,390px);transition:filter .3s,transform .3s;border-radius:30px}
+.classic-watch-trigger img{display:block;width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 18px 22px #000) drop-shadow(0 0 16px #80e50026);animation:classic-watch-float 6s ease-in-out infinite;transition:filter .3s}
+.classic-watch-trigger:hover{transform:rotate(-3deg) scale(1.04)}
+.classic-watch-trigger:hover img{filter:drop-shadow(0 15px 22px #000) drop-shadow(0 0 25px #80e50066)}
+.classic-watch-trigger:focus-visible{outline:2px solid #9bea13;outline-offset:8px}
+.classic-watch-trigger:disabled{cursor:wait}
+.sync-device-label{position:absolute;bottom:0;color:#6c9274;font:9px 'DM Mono',monospace;letter-spacing:.18em;text-align:center}
+.sync-action{text-align:center;z-index:4;flex-shrink:0}
+.sync-action p{font:9px 'DM Mono',monospace;color:#78977e;letter-spacing:.1em;margin-top:16px}
+.is-charging .classic-watch-trigger img{animation:classic-watch-charge .45s ease-in-out infinite alternate}
+.is-charging .sync-orbit{box-shadow:0 0 100px #7bff6550,inset 0 0 60px #7bff6520;border-color:#7bff6580;transition:box-shadow 1s,border-color 1s}
+@keyframes classic-watch-float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(1deg)}}
+@keyframes classic-watch-charge{from{filter:drop-shadow(0 0 18px #80e50066);transform:scale(1)}to{filter:drop-shadow(0 0 38px #80e500cc);transform:scale(1.035)}}
+@media(max-width:600px){.sync-heading h1{font-size:44px}.sync-heading>span{font-size:8px}.sync-device{min-height:270px}.classic-watch-trigger{width:min(100%,330px)}.sync-gate{gap:18px}}
+@media(prefers-reduced-motion:reduce){.classic-watch-trigger,.classic-watch-trigger img{animation:none!important;transition:none}.classic-watch-trigger:hover{transform:none}}

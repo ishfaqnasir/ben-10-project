@@ -1,0 +1,12 @@
+import CharacterArt from './CharacterArt'
+import DnaScanner from './DnaScanner'
+export default function AlienProfile({alien}){
+ if(!alien)return <section className="database-section"><h1>DNA record not found</h1><a href="#/aliens">Return to archive</a></section>
+ const entries=Object.entries(alien.stats||{})
+ const points=entries.map(([,v],i)=>{const a=i/entries.length*Math.PI*2-Math.PI/2;return [150+Math.cos(a)*v,150+Math.sin(a)*v].join(',')}).join(' ')
+ return <section className={'profile-page '+(alien.id==='alien-x'?'galaxy-profile':'')} style={{'--alien':alien.color}}>
+ <a className="back-link" href="#/aliens">← RETURN TO DNA ARCHIVE</a><div className="profile-top"><div className="profile-art"><CharacterArt item={alien} eager/><span>{alien.code} / {alien.form||'BASE TRANSFORMATION'}</span></div>
+ <div className="profile-intro"><span className="eyebrow">{alien.era} / {alien.species}</span><h1>{alien.name}</h1><p>{alien.lore}</p><div className="profile-facts">{[['Planet',alien.homeworld],['Category',alien.powerType],['Wielder',alien.wielder||'Ben Tennyson'],['Form',alien.form||'Base transformation']].map(([k,v])=><div key={k}><span>{k}</span><b>{v}</b></div>)}</div><div className="card-powers">{alien.abilities.map(a=><span key={a}>{a}</span>)}</div></div>
+ <div className="radar-panel"><span>POWER SIGNATURE</span>{entries.length?<><svg viewBox="0 0 300 300" role="img" aria-label="Fan power ratings radar">{[25,50,75,100].map(v=><circle key={v} cx="150" cy="150" r={v} fill="none" stroke="#638a6540"/>)}<polygon points={points} fill={alien.color+'30'} stroke={alien.color} strokeWidth="2"/>{entries.map(([k,v],i)=>{const a=i/entries.length*Math.PI*2-Math.PI/2;return <text key={k} x={150+Math.cos(a)*120} y={150+Math.sin(a)*120} textAnchor="middle" fill="#c2dac6" fontSize="10">{k} {v}</text>})}</svg><p>Fan ratings / not official measurements</p></>:<p>No verified numerical power ratings available.</p>}</div></div>
+ <div className="profile-lore"><article><h2>Combat file</h2><p>{alien.abilities.join(' · ')}</p><h3>Weaknesses</h3><p>{alien.weaknesses?.length?alien.weaknesses.join(' · '):'No verified weakness details in this record.'}</p><h3>Archive notes</h3><p>Voice actor, episode history, height, weight, and detailed trivia have not yet been verified for this record.</p><a href={alien.source||'https://ben10.fandom.com/wiki/'+alien.name.replaceAll(' ','_')} target="_blank" rel="noreferrer">Explore reference material ↗</a></article><DnaScanner id={alien.id}/></div></section>
+}

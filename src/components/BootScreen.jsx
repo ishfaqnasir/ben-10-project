@@ -1,0 +1,2 @@
+import { motion } from 'framer-motion'
+export default function BootScreen({onEnter}){return <motion.div className="boot-screen" initial={{opacity:1}} exit={{opacity:0,scale:1.04}}><div className="boot-stars"/><div className="boot-copy"><span>OMNITRIX UNIVERSE / SYNC PROTOCOL 01</span><h1>TOUCH THE<br/><em>OMNITRIX</em></h1><p>Synchronize with the DNA archive. One watch. Infinite possibilities.</p><button className="boot-watch" onClick={onEnter} aria-label="Synchronize DNA"><i/><b/><i/></button><small>DNA CORE STANDBY · TAP TO INITIALIZE</small></div></motion.div>}

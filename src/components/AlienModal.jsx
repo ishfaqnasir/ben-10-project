@@ -2,6 +2,7 @@ import { AlertTriangle, Dna, ShieldCheck, X } from 'lucide-react'
 import { useEffect, useRef } from 'react'
 import { HologramCanvas } from './Holograms'
 import CharacterArt from './CharacterArt'
+import DnaScanner from './DnaScanner'
 import { artwork } from '../data/artwork'
 
 export default function AlienModal({ alien, onClose }) {
@@ -33,7 +34,9 @@ export default function AlienModal({ alien, onClose }) {
         {alien.stats&&<><p className="stat-note">Fan-made relative ratings · not official measurements</p><div className="full-stats">{Object.entries(alien.stats).map(([name,value])=><div key={name}><span>{name}</span><i><b style={{width:`${value}%`}}/></i><strong>{value}</strong></div>)}</div></>}
         <div className="ability-grid"><div><h3><Dna/> Abilities</h3>{alien.abilities.map(x=><span key={x}><ShieldCheck/>{x}</span>)}</div><div><h3>Origin</h3><span>{alien.homeworld}</span>{alien.weaknesses?.length>0&&<><h3><AlertTriangle/> Weaknesses</h3>{alien.weaknesses.map(x=><span key={x}>{x}</span>)}</>}</div></div>
         {artwork[alien.id]&&<a className="art-source" href={artwork[alien.id].source} target="_blank" rel="noreferrer">Character & artwork source ↗</a>}
-        {!alien.role&&<div className="mini-hologram"><HologramCanvas color={alien.color} alien={alien}/></div>}
+        {alien.form&&<p className="stat-note">{alien.form} / Wielder: {alien.wielder||'Ben Tennyson'}</p>}
+        {alien.source&&<a className="art-source" href={alien.source} target="_blank" rel="noreferrer">Read archive source ↗</a>}
+        {!alien.role&&<DnaScanner id={alien.id}/>}
       </div>
     </section>
   </div>

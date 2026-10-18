@@ -1,0 +1,811 @@
+[
+  {
+    "id": "bashmouth",
+    "name": "Bashmouth",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-76",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Bashmouth is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "bootleg",
+    "name": "Bootleg",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-77",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Bootleg is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "crystalfist",
+    "name": "Crystalfist",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-78",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Crystalfist is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "dark-matter",
+    "name": "Dark Matter",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-79",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Dark Matter is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "hot-shot",
+    "name": "Hot Shot",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-80",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Hot Shot is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "humungoraptor",
+    "name": "Humungoraptor",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-81",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Humungoraptor is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "quad-smack",
+    "name": "Quad Smack",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-82",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Quad Smack is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "rush",
+    "name": "Rush",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-83",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Rush is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "skunkmoth",
+    "name": "Skunkmoth",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-84",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Skunkmoth is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "thornblade",
+    "name": "Thornblade",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-85",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Thornblade is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "undertow",
+    "name": "Undertow",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-86",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Undertow is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "wreckingbolt",
+    "name": "Wreckingbolt",
+    "form": "Antitrix variant",
+    "era": "Reboot",
+    "wielder": "Kevin Levin",
+    "source": "https://ben10.fandom.com/wiki/Antitrix",
+    "code": "DNA-87",
+    "species": "Antitrix variant",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Antitrix",
+    "color": "#ff8970",
+    "abilities": [
+      "Modified genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Wreckingbolt is a antitrix variant associated with Kevin Levin. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "atomic-x",
+    "name": "Atomic-X",
+    "form": "Fusion",
+    "era": "Omniverse",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-88",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Atomic-X is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "big-chuck",
+    "name": "Big Chuck",
+    "form": "Fusion",
+    "era": "Omniverse",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-89",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Big Chuck is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "crashocker",
+    "name": "Crashocker",
+    "form": "Fusion",
+    "era": "Omniverse",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-90",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Crashocker is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "diamond-matter",
+    "name": "Diamond Matter",
+    "form": "Fusion",
+    "era": "Original",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-91",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Diamond Matter is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "fourmungousaur",
+    "name": "Fourmungousaur",
+    "form": "Fusion",
+    "era": "Omniverse",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-92",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Fourmungousaur is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "heat-jaws",
+    "name": "Heat Jaws",
+    "form": "Fusion",
+    "era": "Original",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-93",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Heat Jaws is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "humungoopsaur",
+    "name": "Humungoopsaur",
+    "form": "Fusion",
+    "era": "Omniverse",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-94",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Humungoopsaur is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "stink-arms",
+    "name": "Stink Arms",
+    "form": "Fusion",
+    "era": "Original",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-95",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Stink Arms is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "uprigg",
+    "name": "Uprigg",
+    "form": "Fusion",
+    "era": "Omniverse",
+    "wielder": "Ben Tennyson / Ben 10,000",
+    "source": "https://ben10.fandom.com/wiki/Atomic-X",
+    "code": "DNA-96",
+    "species": "Fusion",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Fusion",
+    "color": "#b395ff",
+    "abilities": [
+      "Combined genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Uprigg is a fusion associated with Ben Tennyson / Ben 10,000. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "ultimate-arctiguana",
+    "name": "Ultimate Arctiguana",
+    "form": "Albedo Ultimate form",
+    "era": "Omniverse",
+    "wielder": "Albedo",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Arctiguana",
+    "code": "DNA-97",
+    "species": "Albedo Ultimate form",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Evolution",
+    "color": "#ff8970",
+    "abilities": [
+      "Evolved genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Ultimate Arctiguana is a albedo ultimate form associated with Albedo. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "ultimate-gravattack",
+    "name": "Ultimate Gravattack",
+    "form": "Albedo Ultimate form",
+    "era": "Omniverse",
+    "wielder": "Albedo",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Gravattack",
+    "code": "DNA-98",
+    "species": "Albedo Ultimate form",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Evolution",
+    "color": "#ff8970",
+    "abilities": [
+      "Evolved genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Ultimate Gravattack is a albedo ultimate form associated with Albedo. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "ultimate-grey-matter",
+    "name": "Ultimate Grey Matter",
+    "form": "Albedo Ultimate form",
+    "era": "Omniverse",
+    "wielder": "Albedo",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Grey_Matter",
+    "code": "DNA-99",
+    "species": "Albedo Ultimate form",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Evolution",
+    "color": "#ff8970",
+    "abilities": [
+      "Evolved genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Ultimate Grey Matter is a albedo ultimate form associated with Albedo. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "ultimate-rath",
+    "name": "Ultimate Rath",
+    "form": "Albedo Ultimate form",
+    "era": "Omniverse",
+    "wielder": "Albedo",
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Rath",
+    "code": "DNA-100",
+    "species": "Albedo Ultimate form",
+    "homeworld": "Not applicable / mixed DNA",
+    "powerType": "Evolution",
+    "color": "#ff8970",
+    "abilities": [
+      "Evolved genetic abilities"
+    ],
+    "weaknesses": [],
+    "stats": null,
+    "lore": "Ultimate Rath is a albedo ultimate form associated with Albedo. This supplemental record is distinct from Ben's base-species transformations."
+  },
+  {
+    "id": "eon",
+    "name": "Eon",
+    "era": "Movies & Specials",
+    "form": "Race Against Time transformation",
+    "species": "Chronian (film continuity)",
+    "homeworld": "Unknown",
+    "powerType": "Time",
+    "abilities": [
+      "Time manipulation"
+    ],
+    "lore": "A transformation associated with the events of Race Against Time. The later Eon has a different origin and is treated separately.",
+    "color": "#a490ff",
+    "code": "DNA-101",
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Eon"
+  },
+  {
+    "id": "ultimate-ben",
+    "name": "Ultimate Ben",
+    "era": "Ultimate Alien",
+    "form": "Future Ben ability form",
+    "species": "Human",
+    "homeworld": "Earth",
+    "powerType": "Evolution",
+    "abilities": [
+      "Alien abilities in human form"
+    ],
+    "lore": "An alternate future Ben uses alien abilities while retaining his human appearance.",
+    "color": "#a490ff",
+    "code": "DNA-102",
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Ultimate_Ben"
+  },
+  {
+    "id": "omni-kix-cannonbolt",
+    "name": "Omni-Kix Cannonbolt",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-103",
+    "species": "Arburian Pelarota",
+    "homeworld": "Arburia",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Armored sphere",
+      "Kinetic impact"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Cannonbolt",
+    "lore": "Omni-Kix Cannonbolt is the armored Reboot version of Cannonbolt. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-diamondhead",
+    "name": "Omni-Kix Diamondhead",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-104",
+    "species": "Petrosapien",
+    "homeworld": "Petropia",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Crystal generation",
+      "Energy refraction"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Diamondhead",
+    "lore": "Omni-Kix Diamondhead is the armored Reboot version of Diamondhead. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-four-arms",
+    "name": "Omni-Kix Four Arms",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-105",
+    "species": "Tetramand",
+    "homeworld": "Khoros",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Titanic strength",
+      "Sonic claps"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Four_Arms",
+    "lore": "Omni-Kix Four Arms is the armored Reboot version of Four Arms. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-heatblast",
+    "name": "Omni-Kix Heatblast",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-106",
+    "species": "Pyronite",
+    "homeworld": "Pyros",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Pyrokinesis",
+      "Fire absorption"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Heatblast",
+    "lore": "Omni-Kix Heatblast is the armored Reboot version of Heatblast. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-humungousaur",
+    "name": "Omni-Kix Humungousaur",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-107",
+    "species": "Vaxasaurian",
+    "homeworld": "Terradino",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Super strength",
+      "Size alteration"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Humungousaur",
+    "lore": "Omni-Kix Humungousaur is the armored Reboot version of Humungousaur. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-jetray",
+    "name": "Omni-Kix Jetray",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-108",
+    "species": "Aerophibian",
+    "homeworld": "Aeropela",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "High-speed flight",
+      "Neuroshock rays"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Jetray",
+    "lore": "Omni-Kix Jetray is the armored Reboot version of Jetray. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-rath",
+    "name": "Omni-Kix Rath",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-109",
+    "species": "Appoplexian",
+    "homeworld": "Appoplexia",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Super strength",
+      "Retractable claws"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Rath",
+    "lore": "Omni-Kix Rath is the armored Reboot version of Rath. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-shock-rock",
+    "name": "Omni-Kix Shock Rock",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-110",
+    "species": "Fulmini",
+    "homeworld": "Fulmas",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Energy constructs",
+      "Electrical projection"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Shock_Rock",
+    "lore": "Omni-Kix Shock Rock is the armored Reboot version of Shock Rock. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-slapback",
+    "name": "Omni-Kix Slapback",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-111",
+    "species": "Ekoplektoid",
+    "homeworld": "Ekoplekton",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Impact-triggered duplication",
+      "Increasing density"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_Slapback",
+    "lore": "Omni-Kix Slapback is the armored Reboot version of Slapback. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-kix-xlr8",
+    "name": "Omni-Kix XLR8",
+    "form": "Omni-Kix armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-112",
+    "species": "Kineceleran",
+    "homeworld": "Kinet",
+    "powerType": "Armor",
+    "color": "#b1ee51",
+    "abilities": [
+      "Protective battle armor",
+      "Hyperspeed",
+      "Rapid reflexes"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Kix_XLR8",
+    "lore": "Omni-Kix XLR8 is the armored Reboot version of XLR8. The Omni-Kix system adds a mechanical protective suit to the transformation. This record tracks the armor separately from the base species."
+  },
+  {
+    "id": "omni-naut-heatblast",
+    "name": "Omni-Naut Heatblast",
+    "form": "Omni-Naut armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-113",
+    "species": "Pyronite",
+    "homeworld": "Pyros",
+    "powerType": "Flight",
+    "color": "#75d8ff",
+    "abilities": [
+      "Spaceflight",
+      "Protective space armor",
+      "Pyrokinesis",
+      "Fire absorption"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Naut_Heatblast",
+    "lore": "Omni-Naut Heatblast equips the Heatblast transformation with an orbital flight suit for travel beyond Earth's atmosphere. This is an armored upgrade of an existing transformation, rather than a separate species."
+  },
+  {
+    "id": "omni-naut-jetray",
+    "name": "Omni-Naut Jetray",
+    "form": "Omni-Naut armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-114",
+    "species": "Aerophibian",
+    "homeworld": "Aeropela",
+    "powerType": "Flight",
+    "color": "#75d8ff",
+    "abilities": [
+      "Spaceflight",
+      "Protective space armor",
+      "High-speed flight",
+      "Neuroshock rays"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Naut_Jetray",
+    "lore": "Omni-Naut Jetray equips the Jetray transformation with an orbital flight suit for travel beyond Earth's atmosphere. This is an armored upgrade of an existing transformation, rather than a separate species."
+  },
+  {
+    "id": "omni-naut-humungousaur",
+    "name": "Omni-Naut Humungousaur",
+    "form": "Omni-Naut armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-115",
+    "species": "Vaxasaurian",
+    "homeworld": "Terradino",
+    "powerType": "Flight",
+    "color": "#75d8ff",
+    "abilities": [
+      "Spaceflight",
+      "Protective space armor",
+      "Super strength",
+      "Size alteration"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Naut_Humungousaur",
+    "lore": "Omni-Naut Humungousaur equips the Humungousaur transformation with an orbital flight suit for travel beyond Earth's atmosphere. This is an armored upgrade of an existing transformation, rather than a separate species."
+  },
+  {
+    "id": "omni-naut-shock-rock",
+    "name": "Omni-Naut Shock Rock",
+    "form": "Omni-Naut armor",
+    "era": "Reboot",
+    "wielder": "Ben Tennyson",
+    "code": "DNA-116",
+    "species": "Fulmini",
+    "homeworld": "Fulmas",
+    "powerType": "Flight",
+    "color": "#75d8ff",
+    "abilities": [
+      "Spaceflight",
+      "Protective space armor",
+      "Energy constructs",
+      "Electrical projection"
+    ],
+    "stats": null,
+    "weaknesses": [],
+    "source": "https://ben10.fandom.com/wiki/Omni-Naut_Shock_Rock",
+    "lore": "Omni-Naut Shock Rock equips the Shock Rock transformation with an orbital flight suit for travel beyond Earth's atmosphere. This is an armored upgrade of an existing transformation, rather than a separate species."
+  }
+]
